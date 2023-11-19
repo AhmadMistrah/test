@@ -39,7 +39,7 @@ function Home() {
         {data.products.map((v)=>(
           <Product name={v.name} price={v.price} description={v.description}/>
         ))}
-        <Product name="lonely" price={20} description="standalone"/>
+        {/* <Product name="lonely" price={20} description="standalone"/> */}
        </div>
     </div>
   );
