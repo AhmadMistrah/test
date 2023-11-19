@@ -1,0 +1,18 @@
+.Product{
+    border: solid 1px black;
+    border-radius:10px;
+    padding:10px;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    width:200px;
+    height: 100px;
+    .holder{
+        display:flex;
+        gap: 5px;
+    }
+    .title{
+        color: red;
+        font-weight:bold;
+    }
+}
